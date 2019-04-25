@@ -9,12 +9,12 @@ On which days did more than 1% of requests lead to errors?
 
 ## Running the Reporting tool
 1. Ensure the _newsdata.sql_ file has been run in the _psql_ environment on the linux virtual machine
-* `cd` to the vagrant directory from the command line
-* copy _proj1.py_ file to this directory
-* run `vagrant up` to run the virtual machine
-* run `vagrant ssh`
-* `cd /vagrant`
-* from here `python proj1.py` to run the program
+2. `cd` to the vagrant directory from the command line
+3. copy _proj1.py_ file to this directory
+4. run `vagrant up` to run the virtual machine
+5. run `vagrant ssh`
+6. `cd /vagrant`
+7. from here `python proj1.py` to run the program
 
 ## Program Design
 The program is run in python code that connects to a back end psql database called news using the db-api.  Each report prints the results of a query sent to the database.
